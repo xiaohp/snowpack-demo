@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/xiaohp/snowpack-demo/issues"
   },
-  "homepage": "https://github.com/xiaohp/snowpack-demo#readme"
+  "homepage": "https://github.com/xiaohp/snowpack-demo#readme",
+  "devDependencies": {
+    "snowpack": "^3.0.11"
+  }
 }
